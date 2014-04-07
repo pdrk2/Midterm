@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CheckinMaster.master.cs" Inherits="CheckinMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href='http://fonts.googleapis.com/css?family=Englebert|Open+Sans:400,600,700' rel='stylesheet' type='text/css'/>
+<link href="./css/default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">Virtual Tour</a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="#" accesskey="1" title="">Homepage</a></li>
+			<li><a href="#" accesskey="2" title="">Register</a></li>
+			<li><a href="#" accesskey="3" title="">Login</a></li>
+			<li><a href="#" accesskey="4" title="">About Us</a></li>
+			<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+<div id="wrapper" class="container">
+	<div id="page">
+		<div id="content"> 
+							
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	</div>
+        </div>	
+</div>
+<div id="footer">
+	<p>Copyright (c) 2013 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+</div>
+   </body>
+</html>
